@@ -1,0 +1,47 @@
+.each-appointment-container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  justify-content: center;
+  border-radius: 10px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #9897f0;
+  margin: 10px;
+  width: 100%;
+}
+
+.title-favourite-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.star-image {
+  height: 20px;
+  width: 20px;
+}
+
+.each-starred-image {
+  background-color: transparent;
+  border-width: 0px;
+}
+
+.each-appointment-title {
+  font-size: 16px;
+  color: #171f46;
+}
+
+.each-appointment-date {
+  font-size: 14px;
+  color: #b5b7c4;
+}
+
+@media screen and (min-width: 768px) {
+  .each-appointment-container {
+    width: 230px;
+    height: 120px;
+    margin-left: 40px;
+  }
+}
